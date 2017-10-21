@@ -1,0 +1,336 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	text-align: center;
+	color: #040405;
+}
+
+h2{
+	font-size: 35px;
+}
+
+h3{
+	font-size: 25px;
+	margin: 32px 0 -10px 0;
+}
+
+ul{
+	list-style: none;
+	font-size: 15px;
+}
+
+#main{
+	width: 1250px;
+	margin:0 auto;
+	text-align: left;
+}
+
+.headerImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.txt2{
+	margin-top: 40px;
+}
+
+.tablet{
+	margin-top: 30px;
+}
+
+.half{
+	background: linear-gradient(#FFFEEE,#FFFEEE,#009DBF);
+}
+
+.tirekarte-top{
+	margin: 30px 60px;
+}
+
+.tirekarte-top-text{
+	font-size: 29px;
+	font-weight: bold;
+}
+
+.tirekarte-top-text2{
+	margin-top: 20px;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.15em;
+}
+
+.tirekarte-top span{
+	border-bottom: 5px solid gold;
+}
+
+/*ポイントについて*/
+
+.point{
+	margin-top: 30px;
+}
+
+.point-1,.point-2,.point-3{
+	margin: 0 60px;
+	height: 390px;
+}
+
+.point-1-img,.point-2-img,.point-3-img{
+	float: right;
+	margin: 15px;
+}
+
+.point-1-text,.point-2-text,.point-3-text{
+	width: 1120px;
+	height: 332px;
+	background: linear-gradient(90deg, rgba(250,250,250,.6), rgba(255,255,255,-10)) fixed;
+}
+
+.point-1-ul{
+  float: left;
+  width: 650px;
+  font-size: 17px;
+  line-height: 42px;
+  margin: 45px 0 45px 40px;
+}
+
+.point-2-ul{
+	float: left;
+	width: 650px;
+  font-size: 17px;
+  line-height: 40px;
+  margin: 30px 0 0 30px;
+}
+
+.point-3-ul{
+  float: left;
+  width: 555px;
+  font-size: 17px;
+  line-height: 47px;
+	margin: 30px 0 0 30px;
+}
+
+/*ご利用について*/
+
+.goriyou-2 img{
+  width: 552px;
+  height: auto;
+  border: 2.5px solid #333;
+  margin-top: 20px;
+}
+
+.goriyou-1 img{
+  width: 552px;
+  height: auto;
+  border: 2.5px solid #333;
+  margin: 20px 0;
+}
+
+.goriyou-1 h3, .goriyou-2 h3{
+	color: #ccb827;
+	font-weight: bold;
+}
+
+.goriyou span{
+	color: #ccb827;
+	font-weight: bold;
+}
+
+.goriyou-left{
+	float: left;
+  margin: 30px 50px;
+}
+
+.goriyou-right-img{
+	margin: 0 0 77px;
+	padding-top: 100px;
+}
+
+/*注意事項*/
+
+.caution{
+	margin: 20px 60px;
+}
+
+.caution p{
+	font-weight: bold;
+}
+
+/*タイヤカルテ項目について*/
+
+.tirekarte-meister img{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.tirekarte-meister-text{
+  margin: 0 60px;
+}
+
+.tirekarte-meister-text p {
+	line-height: 2em;
+}
+
+.tirekarte-meister-text-p{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.tirekarte-items-img{
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
+.tirekarte-items{
+	background-color: #fff;
+	margin: 40px 60px;
+	padding: 20px;
+	height: 500px;
+}
+
+.tirekarte-items ul{
+	margin: 20px 25px;
+  line-height: 2em;
+}
+
+.tirekarte-items li{
+	font-weight: bold;
+}
+
+.tirekarte-items-text{
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.tirekarte-items-text span{
+	font-size: 10px;
+}
+.tirekarte-items-left{
+	float: left;
+	width: 500px;
+}
+.tire-img{
+  width: 465px;
+  height: 140px;
+  padding: 0 21px 25px 60px;
+}
+.tire-img img{
+	width: 220px;
+	float: left;
+	margin: 6px;
+}
+.tiregraph{
+	width: 530px;
+  margin: 59px 10px 10px 50px;
+}
+
+.img_bottom{
+	padding-bottom: 50px;
+}
+
+
+@media screen and ( max-width:415px )
+{
+	#main{
+		width: 375px;
+	}
+	h2{
+		font-size: 26px;
+	}
+
+	h3{
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+
+	.tirekarte-top{
+		margin: 0 auto;
+		width: 350px;
+	}
+
+	.headerImg{
+		width: 375px;
+    margin: 0;
+	}
+
+	.tirekarte-top-text {
+    font-size: 10px;
+  }
+
+	.tirekarte-top-text2 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.15em;
+    width: 350px;
+  }
+
+  .point-1,.point-2,.point-3{
+  	height: auto;
+  	margin:0;
+  }
+
+  .point-1-ul,.point-2-ul,.point-3-ul{
+	  float: none;
+	  width: auto;
+	  margin:20px;
+  }
+  .point-1-img,.point-2-img,.point-3-img{
+  	float: none;
+  }
+
+  .goriyou-left{
+  	float: none;
+  	margin: 0;
+  }
+
+  .goriyou-left img{
+  	width: 320px;
+  }
+
+  .goriyou-right-img {
+  	margin: 30px 0;
+  }
+
+  .point-1-text, .point-2-text, .point-3-text{
+  	width: 375px;
+  	height: auto;
+  }
+  .caution{
+  	margin: 0;
+  	width: 320px;
+  }
+  .caution-list{
+  	margin: 20px;
+  }
+  .tirekarte-meister-text{
+  	margin: 0;
+  }
+
+  .tirekarte-items{
+  	margin: 20px;
+  	padding: 10px;
+  	width: 320px;
+  }
+
+  .tirekarte-items-left{
+  	width: 320px;
+  }
+  .tirekarte-items-text{
+  	font-size: 15px;
+  }
+  .tirekarte-items ul{
+  	margin: 20px;
+  }
+  .tire-img{
+  	margin: 0;
+  	padding:0;
+  	width: 320px;
+  }
+  .tiregraph{
+  	width: 320px;
+  	margin: 20px;
+  }
+}
